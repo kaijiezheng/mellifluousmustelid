@@ -7,48 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB8FE1F91C17925E003A4717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FE1F81C17925E003A4717 /* AppDelegate.swift */; };
-		EB8FE1FB1C17925E003A4717 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FE1FA1C17925E003A4717 /* MasterViewController.swift */; };
-		EB8FE1FD1C17925E003A4717 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FE1FC1C17925E003A4717 /* DetailViewController.swift */; };
-		EB8FE2001C17925E003A4717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8FE1FE1C17925E003A4717 /* Main.storyboard */; };
-		EB8FE2021C17925E003A4717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8FE2011C17925E003A4717 /* Assets.xcassets */; };
-		EB8FE2051C17925E003A4717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8FE2031C17925E003A4717 /* LaunchScreen.storyboard */; };
-		EB8FE2101C17925E003A4717 /* UmamiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FE20F1C17925E003A4717 /* UmamiTests.swift */; };
+		EB0993921C17A258000EA308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0993911C17A258000EA308 /* AppDelegate.swift */; };
+		EB0993941C17A258000EA308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0993931C17A258000EA308 /* ViewController.swift */; };
+		EB0993971C17A258000EA308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0993951C17A258000EA308 /* Main.storyboard */; };
+		EB0993991C17A258000EA308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0993981C17A258000EA308 /* Assets.xcassets */; };
+		EB09939C1C17A258000EA308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB09939A1C17A258000EA308 /* LaunchScreen.storyboard */; };
+		EB0993A71C17A258000EA308 /* UmamiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0993A61C17A258000EA308 /* UmamiTests.swift */; };
+		EB0993B21C17A258000EA308 /* UmamiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0993B11C17A258000EA308 /* UmamiUITests.swift */; };
+		EB0993C31C17A2E9000EA308 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0993C21C17A2E9000EA308 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB0993C51C17A33F000EA308 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0993C41C17A33F000EA308 /* MenuController.swift */; settings = {ASSET_TAGS = (); }; };
+		EB0993C71C17A7DA000EA308 /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0993C61C17A7DA000EA308 /* RecipesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EB8FE20C1C17925E003A4717 /* PBXContainerItemProxy */ = {
+		EB0993A31C17A258000EA308 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB8FE1ED1C17925E003A4717 /* Project object */;
+			containerPortal = EB0993861C17A258000EA308 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB8FE1F41C17925E003A4717;
+			remoteGlobalIDString = EB09938D1C17A258000EA308;
+			remoteInfo = Umami;
+		};
+		EB0993AE1C17A258000EA308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0993861C17A258000EA308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB09938D1C17A258000EA308;
 			remoteInfo = Umami;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EB8FE1F51C17925E003A4717 /* Umami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umami.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB8FE1F81C17925E003A4717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB8FE1FA1C17925E003A4717 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		EB8FE1FC1C17925E003A4717 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		EB8FE1FF1C17925E003A4717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EB8FE2011C17925E003A4717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EB8FE2041C17925E003A4717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EB8FE2061C17925E003A4717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB8FE20B1C17925E003A4717 /* UmamiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmamiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB8FE20F1C17925E003A4717 /* UmamiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiTests.swift; sourceTree = "<group>"; };
-		EB8FE2111C17925E003A4717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB09938E1C17A258000EA308 /* Umami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0993911C17A258000EA308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB0993931C17A258000EA308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB0993961C17A258000EA308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB0993981C17A258000EA308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB09939B1C17A258000EA308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB09939D1C17A258000EA308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0993A21C17A258000EA308 /* UmamiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmamiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0993A61C17A258000EA308 /* UmamiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiTests.swift; sourceTree = "<group>"; };
+		EB0993A81C17A258000EA308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0993AD1C17A258000EA308 /* UmamiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmamiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0993B11C17A258000EA308 /* UmamiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiUITests.swift; sourceTree = "<group>"; };
+		EB0993B31C17A258000EA308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0993C01C17A2E8000EA308 /* Umami-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Umami-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB0993C11C17A2E9000EA308 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		EB0993C21C17A2E9000EA308 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		EB0993C41C17A33F000EA308 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		EB0993C61C17A7DA000EA308 /* RecipesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EB8FE1F21C17925E003A4717 /* Frameworks */ = {
+		EB09938B1C17A258000EA308 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB8FE2081C17925E003A4717 /* Frameworks */ = {
+		EB09939F1C17A258000EA308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0993AA1C17A258000EA308 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,89 +82,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EB8FE1EC1C17925E003A4717 = {
+		EB0993851C17A258000EA308 = {
 			isa = PBXGroup;
 			children = (
-				EB8FE1F71C17925E003A4717 /* Umami */,
-				EB8FE20E1C17925E003A4717 /* UmamiTests */,
-				EB8FE1F61C17925E003A4717 /* Products */,
+				EB0993901C17A258000EA308 /* Umami */,
+				EB0993A51C17A258000EA308 /* UmamiTests */,
+				EB0993B01C17A258000EA308 /* UmamiUITests */,
+				EB09938F1C17A258000EA308 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EB8FE1F61C17925E003A4717 /* Products */ = {
+		EB09938F1C17A258000EA308 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB8FE1F51C17925E003A4717 /* Umami.app */,
-				EB8FE20B1C17925E003A4717 /* UmamiTests.xctest */,
+				EB09938E1C17A258000EA308 /* Umami.app */,
+				EB0993A21C17A258000EA308 /* UmamiTests.xctest */,
+				EB0993AD1C17A258000EA308 /* UmamiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EB8FE1F71C17925E003A4717 /* Umami */ = {
+		EB0993901C17A258000EA308 /* Umami */ = {
 			isa = PBXGroup;
 			children = (
-				EB8FE1FE1C17925E003A4717 /* Main.storyboard */,
-				EB8FE2031C17925E003A4717 /* LaunchScreen.storyboard */,
-				EB8FE1F81C17925E003A4717 /* AppDelegate.swift */,
-				EB8FE21F1C1794BD003A4717 /* Models */,
-				EB8FE2201C1794C4003A4717 /* Views */,
-				EB8FE21D1C179319003A4717 /* Controllers */,
-				EB8FE21A1C1792E7003A4717 /* Supporting Files */,
-				EB8FE2011C17925E003A4717 /* Assets.xcassets */,
-				EB8FE2061C17925E003A4717 /* Info.plist */,
+				EB0993BF1C17A2B7000EA308 /* SWRevealViewController */,
+				EB0993911C17A258000EA308 /* AppDelegate.swift */,
+				EB0993931C17A258000EA308 /* ViewController.swift */,
+				EB0993951C17A258000EA308 /* Main.storyboard */,
+				EB0993981C17A258000EA308 /* Assets.xcassets */,
+				EB09939A1C17A258000EA308 /* LaunchScreen.storyboard */,
+				EB09939D1C17A258000EA308 /* Info.plist */,
+				EB0993C41C17A33F000EA308 /* MenuController.swift */,
+				EB0993C61C17A7DA000EA308 /* RecipesTableViewController.swift */,
 			);
 			path = Umami;
 			sourceTree = "<group>";
 		};
-		EB8FE20E1C17925E003A4717 /* UmamiTests */ = {
+		EB0993A51C17A258000EA308 /* UmamiTests */ = {
 			isa = PBXGroup;
 			children = (
-				EB8FE20F1C17925E003A4717 /* UmamiTests.swift */,
-				EB8FE2111C17925E003A4717 /* Info.plist */,
+				EB0993A61C17A258000EA308 /* UmamiTests.swift */,
+				EB0993A81C17A258000EA308 /* Info.plist */,
 			);
 			path = UmamiTests;
 			sourceTree = "<group>";
 		};
-		EB8FE21A1C1792E7003A4717 /* Supporting Files */ = {
+		EB0993B01C17A258000EA308 /* UmamiUITests */ = {
 			isa = PBXGroup;
 			children = (
+				EB0993B11C17A258000EA308 /* UmamiUITests.swift */,
+				EB0993B31C17A258000EA308 /* Info.plist */,
 			);
-			path = "Supporting Files";
+			path = UmamiUITests;
 			sourceTree = "<group>";
 		};
-		EB8FE21D1C179319003A4717 /* Controllers */ = {
+		EB0993BF1C17A2B7000EA308 /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
-				EB8FE1FA1C17925E003A4717 /* MasterViewController.swift */,
-				EB8FE1FC1C17925E003A4717 /* DetailViewController.swift */,
+				EB0993C11C17A2E9000EA308 /* SWRevealViewController.h */,
+				EB0993C21C17A2E9000EA308 /* SWRevealViewController.m */,
+				EB0993C01C17A2E8000EA308 /* Umami-Bridging-Header.h */,
 			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		EB8FE21F1C1794BD003A4717 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		EB8FE2201C1794C4003A4717 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Views;
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB8FE1F41C17925E003A4717 /* Umami */ = {
+		EB09938D1C17A258000EA308 /* Umami */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB8FE2141C17925E003A4717 /* Build configuration list for PBXNativeTarget "Umami" */;
+			buildConfigurationList = EB0993B61C17A258000EA308 /* Build configuration list for PBXNativeTarget "Umami" */;
 			buildPhases = (
-				EB8FE1F11C17925E003A4717 /* Sources */,
-				EB8FE1F21C17925E003A4717 /* Frameworks */,
-				EB8FE1F31C17925E003A4717 /* Resources */,
+				EB09938A1C17A258000EA308 /* Sources */,
+				EB09938B1C17A258000EA308 /* Frameworks */,
+				EB09938C1C17A258000EA308 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,46 +163,69 @@
 			);
 			name = Umami;
 			productName = Umami;
-			productReference = EB8FE1F51C17925E003A4717 /* Umami.app */;
+			productReference = EB09938E1C17A258000EA308 /* Umami.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EB8FE20A1C17925E003A4717 /* UmamiTests */ = {
+		EB0993A11C17A258000EA308 /* UmamiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB8FE2171C17925E003A4717 /* Build configuration list for PBXNativeTarget "UmamiTests" */;
+			buildConfigurationList = EB0993B91C17A258000EA308 /* Build configuration list for PBXNativeTarget "UmamiTests" */;
 			buildPhases = (
-				EB8FE2071C17925E003A4717 /* Sources */,
-				EB8FE2081C17925E003A4717 /* Frameworks */,
-				EB8FE2091C17925E003A4717 /* Resources */,
+				EB09939E1C17A258000EA308 /* Sources */,
+				EB09939F1C17A258000EA308 /* Frameworks */,
+				EB0993A01C17A258000EA308 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB8FE20D1C17925E003A4717 /* PBXTargetDependency */,
+				EB0993A41C17A258000EA308 /* PBXTargetDependency */,
 			);
 			name = UmamiTests;
 			productName = UmamiTests;
-			productReference = EB8FE20B1C17925E003A4717 /* UmamiTests.xctest */;
+			productReference = EB0993A21C17A258000EA308 /* UmamiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB0993AC1C17A258000EA308 /* UmamiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0993BC1C17A258000EA308 /* Build configuration list for PBXNativeTarget "UmamiUITests" */;
+			buildPhases = (
+				EB0993A91C17A258000EA308 /* Sources */,
+				EB0993AA1C17A258000EA308 /* Frameworks */,
+				EB0993AB1C17A258000EA308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0993AF1C17A258000EA308 /* PBXTargetDependency */,
+			);
+			name = UmamiUITests;
+			productName = UmamiUITests;
+			productReference = EB0993AD1C17A258000EA308 /* UmamiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EB8FE1ED1C17925E003A4717 /* Project object */ = {
+		EB0993861C17A258000EA308 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Honey Badger";
 				TargetAttributes = {
-					EB8FE1F41C17925E003A4717 = {
+					EB09938D1C17A258000EA308 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
-					EB8FE20A1C17925E003A4717 = {
+					EB0993A11C17A258000EA308 = {
 						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = EB8FE1F41C17925E003A4717;
+						TestTargetID = EB09938D1C17A258000EA308;
+					};
+					EB0993AC1C17A258000EA308 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EB09938D1C17A258000EA308;
 					};
 				};
 			};
-			buildConfigurationList = EB8FE1F01C17925E003A4717 /* Build configuration list for PBXProject "Umami" */;
+			buildConfigurationList = EB0993891C17A258000EA308 /* Build configuration list for PBXProject "Umami" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -195,29 +233,37 @@
 				en,
 				Base,
 			);
-			mainGroup = EB8FE1EC1C17925E003A4717;
-			productRefGroup = EB8FE1F61C17925E003A4717 /* Products */;
+			mainGroup = EB0993851C17A258000EA308;
+			productRefGroup = EB09938F1C17A258000EA308 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB8FE1F41C17925E003A4717 /* Umami */,
-				EB8FE20A1C17925E003A4717 /* UmamiTests */,
+				EB09938D1C17A258000EA308 /* Umami */,
+				EB0993A11C17A258000EA308 /* UmamiTests */,
+				EB0993AC1C17A258000EA308 /* UmamiUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EB8FE1F31C17925E003A4717 /* Resources */ = {
+		EB09938C1C17A258000EA308 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB8FE2051C17925E003A4717 /* LaunchScreen.storyboard in Resources */,
-				EB8FE2021C17925E003A4717 /* Assets.xcassets in Resources */,
-				EB8FE2001C17925E003A4717 /* Main.storyboard in Resources */,
+				EB09939C1C17A258000EA308 /* LaunchScreen.storyboard in Resources */,
+				EB0993991C17A258000EA308 /* Assets.xcassets in Resources */,
+				EB0993971C17A258000EA308 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB8FE2091C17925E003A4717 /* Resources */ = {
+		EB0993A01C17A258000EA308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0993AB1C17A258000EA308 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -227,47 +273,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EB8FE1F11C17925E003A4717 /* Sources */ = {
+		EB09938A1C17A258000EA308 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB8FE1FD1C17925E003A4717 /* DetailViewController.swift in Sources */,
-				EB8FE1FB1C17925E003A4717 /* MasterViewController.swift in Sources */,
-				EB8FE1F91C17925E003A4717 /* AppDelegate.swift in Sources */,
+				EB0993C51C17A33F000EA308 /* MenuController.swift in Sources */,
+				EB0993941C17A258000EA308 /* ViewController.swift in Sources */,
+				EB0993921C17A258000EA308 /* AppDelegate.swift in Sources */,
+				EB0993C31C17A2E9000EA308 /* SWRevealViewController.m in Sources */,
+				EB0993C71C17A7DA000EA308 /* RecipesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB8FE2071C17925E003A4717 /* Sources */ = {
+		EB09939E1C17A258000EA308 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB8FE2101C17925E003A4717 /* UmamiTests.swift in Sources */,
+				EB0993A71C17A258000EA308 /* UmamiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0993A91C17A258000EA308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0993B21C17A258000EA308 /* UmamiUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EB8FE20D1C17925E003A4717 /* PBXTargetDependency */ = {
+		EB0993A41C17A258000EA308 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB8FE1F41C17925E003A4717 /* Umami */;
-			targetProxy = EB8FE20C1C17925E003A4717 /* PBXContainerItemProxy */;
+			target = EB09938D1C17A258000EA308 /* Umami */;
+			targetProxy = EB0993A31C17A258000EA308 /* PBXContainerItemProxy */;
+		};
+		EB0993AF1C17A258000EA308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB09938D1C17A258000EA308 /* Umami */;
+			targetProxy = EB0993AE1C17A258000EA308 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EB8FE1FE1C17925E003A4717 /* Main.storyboard */ = {
+		EB0993951C17A258000EA308 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EB8FE1FF1C17925E003A4717 /* Base */,
+				EB0993961C17A258000EA308 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EB8FE2031C17925E003A4717 /* LaunchScreen.storyboard */ = {
+		EB09939A1C17A258000EA308 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EB8FE2041C17925E003A4717 /* Base */,
+				EB09939B1C17A258000EA308 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -275,7 +336,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EB8FE2121C17925E003A4717 /* Debug */ = {
+		EB0993B41C17A258000EA308 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		EB8FE2131C17925E003A4717 /* Release */ = {
+		EB0993B51C17A258000EA308 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,29 +419,34 @@
 			};
 			name = Release;
 		};
-		EB8FE2151C17925E003A4717 /* Debug */ = {
+		EB0993B71C17A258000EA308 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Umami/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.umami.Umami;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Umami/Umami-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		EB8FE2161C17925E003A4717 /* Release */ = {
+		EB0993B81C17A258000EA308 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Umami/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.umami.Umami;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Umami/Umami-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		EB8FE2181C17925E003A4717 /* Debug */ = {
+		EB0993BA1C17A258000EA308 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -392,7 +458,7 @@
 			};
 			name = Debug;
 		};
-		EB8FE2191C17925E003A4717 /* Release */ = {
+		EB0993BB1C17A258000EA308 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -401,38 +467,70 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.umami.UmamiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Umami.app/Umami";
+			};
+			name = Release;
+		};
+		EB0993BD1C17A258000EA308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UmamiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.umami.UmamiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Umami;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EB0993BE1C17A258000EA308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UmamiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.umami.UmamiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Umami;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB8FE1F01C17925E003A4717 /* Build configuration list for PBXProject "Umami" */ = {
+		EB0993891C17A258000EA308 /* Build configuration list for PBXProject "Umami" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB8FE2121C17925E003A4717 /* Debug */,
-				EB8FE2131C17925E003A4717 /* Release */,
+				EB0993B41C17A258000EA308 /* Debug */,
+				EB0993B51C17A258000EA308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB8FE2141C17925E003A4717 /* Build configuration list for PBXNativeTarget "Umami" */ = {
+		EB0993B61C17A258000EA308 /* Build configuration list for PBXNativeTarget "Umami" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB8FE2151C17925E003A4717 /* Debug */,
-				EB8FE2161C17925E003A4717 /* Release */,
+				EB0993B71C17A258000EA308 /* Debug */,
+				EB0993B81C17A258000EA308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		EB8FE2171C17925E003A4717 /* Build configuration list for PBXNativeTarget "UmamiTests" */ = {
+		EB0993B91C17A258000EA308 /* Build configuration list for PBXNativeTarget "UmamiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB8FE2181C17925E003A4717 /* Debug */,
-				EB8FE2191C17925E003A4717 /* Release */,
+				EB0993BA1C17A258000EA308 /* Debug */,
+				EB0993BB1C17A258000EA308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB0993BC1C17A258000EA308 /* Build configuration list for PBXNativeTarget "UmamiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0993BD1C17A258000EA308 /* Debug */,
+				EB0993BE1C17A258000EA308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EB8FE1ED1C17925E003A4717 /* Project object */;
+	rootObject = EB0993861C17A258000EA308 /* Project object */;
 }
