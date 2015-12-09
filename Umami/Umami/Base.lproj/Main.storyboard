@@ -182,6 +182,28 @@
                                             <segue destination="adL-1Y-awF" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="j2O-Vy-bgf"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="esi-bC-qjZ">
+                                        <rect key="frame" x="0.0" y="132" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="esi-bC-qjZ" id="RN4-vk-bZ8">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Open Ears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBa-Iu-SFx">
+                                                    <rect key="frame" x="8" y="8" width="238" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="gBr-kP-pF2" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="dcm-au-roe"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -194,6 +216,75 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RpK-Af-7Wn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1409" y="315"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tRA-bg-WyB">
+            <objects>
+                <navigationController id="gBr-kP-pF2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="X1h-V7-LKj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="I3F-z4-yM4" kind="relationship" relationship="rootViewController" id="ZPJ-32-mlJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="leu-kp-zax" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003" y="979"/>
+        </scene>
+        <!--Open Ears-->
+        <scene sceneID="5j8-ju-ozC">
+            <objects>
+                <viewController id="I3F-z4-yM4" customClass="OpenEarsViewController" customModule="Umami" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BAO-cF-d3m"/>
+                        <viewControllerLayoutGuide type="bottom" id="RiS-Sq-rW9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cCU-yE-Urc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbA-2k-YGz">
+                                <rect key="frame" x="223" y="250" width="154" height="100"/>
+                                <animations/>
+                                <state key="normal" image="record"/>
+                                <connections>
+                                    <action selector="record:" destination="I3F-z4-yM4" eventType="touchUpInside" id="PBM-3i-JRB"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sDc-Il-gzf">
+                                <rect key="frame" x="20" y="72" width="560" height="67"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.46921690891068901" green="1" blue="0.77229617473223011" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TtN-3b-tyc">
+                                <rect key="frame" x="20" y="147" width="560" height="67"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.27311306900869681" green="0.77964530631747131" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Open Ears" id="qix-xP-Yd4">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="afj-AN-vhY"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="heardTextView" destination="sDc-Il-gzf" id="IMM-aI-dfg"/>
+                        <outlet property="menuButton" destination="afj-AN-vhY" id="WNQ-Ou-i6E"/>
+                        <outlet property="recordButton" destination="bbA-2k-YGz" id="TkA-Xs-eDp"/>
+                        <outlet property="statusTextView" destination="TtN-3b-tyc" id="U1w-hl-pjG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rHf-iu-sea" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1490" y="1733"/>
         </scene>
         <!--Settings-->
         <scene sceneID="IYF-UK-JDm">
@@ -273,11 +364,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gsz-0F-QBb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2204" y="362"/>
+            <point key="canvasLocation" x="2246" y="310"/>
         </scene>
     </scenes>
     <resources>
         <image name="menu" width="22" height="22"/>
+        <image name="record" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hV9-Aw-gPG"/>
