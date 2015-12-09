@@ -17,6 +17,7 @@
 		EB0993C31C17A2E9000EA308 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0993C21C17A2E9000EA308 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
 		EB0993C51C17A33F000EA308 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0993C41C17A33F000EA308 /* MenuController.swift */; settings = {ASSET_TAGS = (); }; };
 		EB0993C71C17A7DA000EA308 /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0993C61C17A7DA000EA308 /* RecipesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EBC5B6DE1C17B18600EBF81F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC5B6DD1C17B18600EBF81F /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EB0993C21C17A2E9000EA308 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		EB0993C41C17A33F000EA308 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		EB0993C61C17A7DA000EA308 /* RecipesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
+		EBC5B6DD1C17B18600EBF81F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				EB09939D1C17A258000EA308 /* Info.plist */,
 				EB0993C41C17A33F000EA308 /* MenuController.swift */,
 				EB0993C61C17A7DA000EA308 /* RecipesTableViewController.swift */,
+				EBC5B6DD1C17B18600EBF81F /* SettingsViewController.swift */,
 			);
 			path = Umami;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				EB0993921C17A258000EA308 /* AppDelegate.swift in Sources */,
 				EB0993C31C17A2E9000EA308 /* SWRevealViewController.m in Sources */,
 				EB0993C71C17A7DA000EA308 /* RecipesTableViewController.swift in Sources */,
+				EBC5B6DE1C17B18600EBF81F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +517,7 @@
 				EB0993B81C17A258000EA308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB0993B91C17A258000EA308 /* Build configuration list for PBXNativeTarget "UmamiTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				EB0993BB1C17A258000EA308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB0993BC1C17A258000EA308 /* Build configuration list for PBXNativeTarget "UmamiUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				EB0993BE1C17A258000EA308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
